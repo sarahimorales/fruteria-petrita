@@ -1,0 +1,57 @@
+.tituloPrincipal{
+    color: black;
+    font-weight: 700;
+}
+
+.pantallaCompleta{
+width: 100%;
+height: 100vh;   
+justify-content: center; 
+align-items: center;
+display: flex; 
+background-color: teal;
+}
+
+.Contenedor{
+    width: 50%;
+    height: 60%;
+    flex-direction: column;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+    background-color: white; 
+    position: absolute;
+      
+ }
+
+ .Contenedor2{
+    width: 50%;
+    height: 60%;
+    flex-direction: column;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+    background-color:blueviolet; 
+    position: absolute;
+      
+ }
+
+.cuadroCorreo{
+    width: 50%;
+}
+
+.cuadroContraseña{
+    width: 50%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.boton{
+    width: 50%;
+    margin-top: 10%;
+    display: flex;
+}
